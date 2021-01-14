@@ -1,4 +1,4 @@
-FROM znck/pnpm:latest
+FROM node:alpine
 
 WORKDIR /app
 

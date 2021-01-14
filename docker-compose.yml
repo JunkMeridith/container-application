@@ -19,7 +19,7 @@ services:
       context: ../application-one
       dockerfile: Dockerfile
     ports:
-      - "8500:9000"
+      - "8500:8500"
     volumes:
       - "/app/node_modules"
       - "./:/app"
